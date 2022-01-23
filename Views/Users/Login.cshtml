@@ -1,0 +1,21 @@
+﻿@model MVRWebsite_Unibit_5sem_MWT_MVC.Models.User
+
+@{ if (Session["username"] != null)
+    {
+        Response.Redirect("~/Home/Index");
+    }
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("Authorize", "Users", FormMethod.Post))
+{
+    @Html.LabelFor(model => model.Username)
+    @Html.EditorFor(model => model.Username)
+    <br />
+    @Html.LabelFor(model => model.Password)
+    @Html.EditorFor(model => model.Password)
+
+    <button type="Submit">Login</button>
+}
