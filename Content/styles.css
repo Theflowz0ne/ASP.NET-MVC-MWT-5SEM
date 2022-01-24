@@ -8,3 +8,27 @@
         left: 50% !important;
     }
 }
+
+a {
+    text-decoration: none;
+}
+
+/* the yellow highlight text color */
+.color-highlight {
+    color: #DBC11F!important;
+}
+
+/* the color of the most-top bar and the footer */
+.bg-color-dark-blue {
+    background-color: #1C3050!important;
+}
+
+/* the most-top bar styles */
+.most-top-bar {
+    font-size: 12px;
+    color: #CFD8DC;
+}
+
+.most-top-bar a {
+    color: #CFD8DC;
+}

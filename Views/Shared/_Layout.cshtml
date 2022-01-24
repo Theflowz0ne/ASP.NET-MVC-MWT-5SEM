@@ -8,6 +8,22 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
+    <div class="most-top-bar container-fluid bg-color-dark-blue">
+        <div class="container d-flex align-items-center justify-content-between" style="height: 32px">
+            <div class="d-flex">
+                @Html.ActionLink("Портал на МВР", "Index", "Home", null, new { @class = "color-highlight" })
+                <div class="ms-5">
+                    <a href="https://www.government.bg/">government.bg</a> |
+                    <a href="https://www.government.bg/cgi-bin/e-cms/vis/vis.pl?s=001&p=0024">Сектори</a>
+                </div>
+            </div>
+            <div>
+                @Html.ActionLink("Начална страница", "Index", "Home", null, new { @class = "" }) |
+                @Html.ActionLink("Карта на сайта", "Index", "Home", null, new { @class = "" }) |
+                @Html.ActionLink("Контакти", "Index", "Home", null, new { @class = "" })
+            </div>
+        </div>
+    </div>
     @*<div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
