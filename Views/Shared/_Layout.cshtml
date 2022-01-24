@@ -8,44 +8,158 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
 
-                    @if (Session["username"] != null)
-                    {
-                        <li>@Html.ActionLink("Logout", "Logout", "Users")</li>
-                    }
-                    else
-                    {
-                        <li>@Html.ActionLink("Login", "Login", "Users")</li>
-                    }
-                </ul>
+                        @if (Session["username"] != null)
+                        {
+                            <li>@Html.ActionLink("Logout", "Logout", "Users")</li>
+                        }
+                        else
+                        {
+                            <li>@Html.ActionLink("Login", "Login", "Users")</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>*@
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="~/Content/Images/Logo2.png" />
+            </div>
+            <div class="col">
+                
             </div>
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+    <div class="row">
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
-</body>
+        <nav class="navbar yamm navbar-expand-lg navbar-light" style="background-color:#C6D9F0">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-auto">
+                            @if (Session["username"] != null)
+                            {
+                                <li>@Html.ActionLink("Logout", "Logout", "Users", null, new { @class = "nav-link" })</li>
+                            }
+                            else
+                            {
+                                <li>@Html.ActionLink("Login", "Login", "Users", null, new { @class = "nav-link" })</li>
+                            }
+                         </li>
+                            <li class="nav-item dropdown yamm-fw">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Министерството
+                                </a>
+                                <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="yamm-content">
+                                        <ul>
+                                            <div class="container">
+                                            <li>@Html.ActionLink("Home", "Index", "Home", null, new { @class = "nav-link" })</li>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </ul>
+                            </li>
+                             <li class="nav-item dropdown yamm-fw">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Обществен ред и сигурност
+                                </a>
+                                <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="yamm-content">
+                                        <ul>
+                                            <div class="container">
+                                            <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown yamm-fw">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Административно обслужване
+                                </a>
+                                <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="yamm-content">
+                                        <ul>
+                                            <div class="container">
+                                            <li>@Html.ActionLink("Contact", "Contact", "Home", null, new { @class = "nav-link" })</li>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown yamm-fw">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Пресцентър
+                                </a>
+                                <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="yamm-content">
+                                        <ul>
+                                            <div class="container">
+                                            <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown yamm-fw">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Брекзит
+                                </a>
+                                <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="yamm-content">
+                                        <ul>
+                                            <div class="container">
+                                            <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+       
+</div>
+
+
+
+
+            <div class="container body-content">
+                @RenderBody()
+                <hr />
+                <footer>
+                    <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+                </footer>
+            </div>
+
+            @Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/bootstrap")
+            @RenderSection("scripts", required: false)
+    </body>
 </html>

@@ -19,12 +19,14 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+            bundles.Add(new Bundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/styles.css"));
+                      "~/Content/yamm.css",
+                      "~/Content/styles.css"
+                      ));
         }
     }
 }
