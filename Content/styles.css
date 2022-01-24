@@ -17,6 +17,8 @@ a {
 
 /* colors */
 
+    
+
     /* the yellow highlight text color */
     .color-highlight {
         color: #DBC11F!important;
@@ -25,6 +27,10 @@ a {
     /* the color of the most-top bar and the footer */
     .bg-color-dark-blue {
         background-color: #1C3050!important;
+    }
+
+    .bg-color-light-blue {
+        background-color: #C6D9F0
     }
 
 /* the most-top bar styles */
@@ -73,3 +79,8 @@ a {
         color: white !important;
         text-decoration: underline;
     }
+
+.upper-footer {
+    font-size: 0.8em;
+    color: #1C3050;
+}
