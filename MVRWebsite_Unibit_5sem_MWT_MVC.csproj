@@ -169,7 +169,9 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Images\lion-black.png" />
+    <Content Include="Content\Images\lion-black1.png" />
     <Content Include="Content\Images\logo-mvr.png" />
+    <Content Include="Content\Images\logo-mvr1.png" />
     <Content Include="Content\Images\Logo2.png" />
     <Content Include="Content\styles.css" />
     <Content Include="Content\yamm.css" />

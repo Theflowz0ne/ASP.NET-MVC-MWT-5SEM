@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="row">
-        <nav class="navbar yamm navbar-expand-lg navbar-light" style="background-color:#C6D9F0">
+        <nav class="navbar yamm navbar-expand-lg navbar-light bg-color-light-blue">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -167,47 +167,66 @@
         </nav>
     </div>
 
-
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <div class="container">
+    </div>
+
+    <footer>
+        <div class="container-fluid bg-color-light-blue">
+            <div class="container py-4">
                 <div class="row">
-                    <div class="col">
-                        <img src="~/Content/Images/lion-black.png" />
+                    <div class="col-3">
+                        <div class="container>">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="~/Content/Images/lion-black1.png" class="img-fluid" />
+                                </div>
+                                <div class="col">
+                                    <img src="~/Content/Images/logo-mvr1.png" class="img-fluid" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col">
-                        <img src="~/Content/Images/logo-mvr.png" />
+                    <div class="col-9">
+                        <div class="container>">
+                            <div class="row upper-footer">
+                                <div class="col">
+                                    <b>МИНИСТЕРСТВО НА ВЪТРЕШНИТЕ РАБОТИ</b>
+                                    <br />
+                                    ул. „6-и септември“ 29, София 1000
+                                    тел. 02 9825 000 -тел.централа
+                                </div>
+                                <div class="col">
+                                    <b>ПРЕСЦЕНТЪР</b>
+                                    <br />
+                                    ул. „Ген. Йосиф В. Гурко“ 23, София 1000
+                                    тел. 02 9823 754, факс: 02 9877 967
+                                </div>
+                                <div class="col">
+                                    <b>ПРИЕМНА ЗА ГРАЖДАНИ</b>
+                                    <br />
+                                    ул. „6-и септември“ 29, София 1000
+                                    Приемно време
+                                    10:00 - 12:00 ч. и 14:00 - 16:00 ч.
+                                    За жалби, предложения и сигнали:
+                                    тел. 02 9822 574, priemna@mvr.bg
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col">
-                        <b>МИНИСТЕРСТВО НА ВЪТРЕШНИТЕ РАБОТИ</b>
-                        <br />
-                        ул. „6-и септември“ 29, София 1000
-                        тел. 02 9825 000 -тел.централа
-                    </div>
-                    <div class="col">
-                        <b>ПРЕСЦЕНТЪР</b>
-                        <br />
-                        ул. „Ген. Йосиф В. Гурко“ 23, София 1000
-                        тел. 02 9823 754, факс: 02 9877 967
-                    </div>
-                    <div class="col">
-                        <b>ПРИЕМНА ЗА ГРАЖДАНИ</b>
-                        <br />
-                        ул. „6-и септември“ 29, София 1000
-                        Приемно време
-                        10:00 - 12:00 ч. и 14:00 - 16:00 ч.
-                        За жалби, предложения и сигнали:
-                        тел. 02 9822 574, priemna@mvr.bg
-                    </div>
-                </div>
-                <div class="row bg-color-dark-blue">
-                    Министерство на вътрешните работи © 2021
                 </div>
             </div>
-        </footer>
-    </div>
+            <div class="container-fluid bg-color-dark-blue">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            Министерство на вътрешните работи © 2021
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
