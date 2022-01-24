@@ -50,3 +50,26 @@ a {
     .navbar a:hover {
         color: #0288D1 !important;
     }
+
+    .dropdown-menu {
+        background-color: #4A6484;
+        border-bottom: 20px solid #1C3050;
+        background-image: url("Images/lion.png");
+        background-repeat: no-repeat;
+        background-position: 90%;
+        background-size: contain;
+    }
+
+    .navbar-dropdown-titles {
+        color: #DBC11F!important;
+        font-weight: bold;
+    }
+
+    .navbar-dropdown-items a {
+        color: white!important;
+    }
+
+    .navbar-dropdown-items a:hover {
+        color: white !important;
+        text-decoration: underline;
+    }

@@ -24,34 +24,6 @@
             </div>
         </div>
     </div>
-    @*<div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                        <li>@Html.ActionLink("About", "About", "Home")</li>
-                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-
-                        @if (Session["username"] != null)
-                        {
-                            <li>@Html.ActionLink("Logout", "Logout", "Users")</li>
-                        }
-                        else
-                        {
-                            <li>@Html.ActionLink("Login", "Login", "Users")</li>
-                        }
-                    </ul>
-                </div>
-            </div>
-        </div>*@
 
     <div class="container">
         <div class="row">
@@ -64,7 +36,6 @@
         </div>
     </div>
     <div class="row">
-
         <nav class="navbar yamm navbar-expand-lg navbar-light" style="background-color:#C6D9F0">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,9 +60,43 @@
                             <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
                                 <div class="yamm-content">
                                     <div class="container">
-                                        <ul>
-                                            <li>@Html.ActionLink("Home", "Index", "Home", null, new { @class = "nav-link" })</li>
-                                        </ul>
+                                        <div class="row navbar-dropdown-titles">
+                                            <div class="col-md">
+                                                ЗА МИНИСТЕРСТВОРО НА ВЪТРЕШНИТЕ РАБОТИ
+                                            </div>
+                                            <div class="col-md">
+                                                ОСНОВНИ СТРУКТУРИ НА МВР
+                                            </div>
+                                            <div class="col-md">
+                                                ЗА МИНИСТЕРСТВОРО НА ВЪТРЕШНИТЕ РАБОТИ
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md navbar-dropdown-items">
+                                                @Html.ActionLink("Home", "Index", "Home")<br>
+                                                @Html.ActionLink("Home", "Index", "Home")<br>
+                                                Ръководство<br>
+                                                Ръководство<br>
+                                                Ръководство<br>
+                                                Ръководство<br>
+                                                Ръководство<br>
+                                                Ръководство<br>
+                                                Ръководство<br>
+                                                Ръководство<br>
+                                                Ръководство<br>
+                                                Ръководство<br>
+                                                Ръководство<br>
+                                            </div>
+                                            <div class="col-md">
+                                                Ръководство<br>
+                                                Ръководство<br>
+                                                Ръководство<br>
+                                                Ръководство<br>
+                                            </div>
+                                            <div class="col-md">
+                                                Ръководство<br>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </ul>
