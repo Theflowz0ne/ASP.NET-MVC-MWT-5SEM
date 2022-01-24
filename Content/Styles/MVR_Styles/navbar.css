@@ -26,15 +26,15 @@
 }
 
 .navbar-dropdown-titles {
-    color: #DBC11F !important;
+    color: var(--yellow) !important;
     font-weight: bold;
 }
 
 .navbar-dropdown-items a {
-    color: white !important;
+    color: var(--white) !important;
 }
 
 .navbar-dropdown-items a:hover {
-    color: white !important;
+    color: var(--white) !important;
     text-decoration: underline;
 }
