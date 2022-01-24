@@ -1,8 +1,8 @@
 ﻿.most-top-bar {
     font-size: 0.75em;
-    color: #CFD8DC;
+    color: var(--white-text-color);
 }
 
 .most-top-bar a {
-    color: #CFD8DC;
+    color: var(--white-text-color);
 }
