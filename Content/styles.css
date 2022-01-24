@@ -54,9 +54,9 @@ a {
     .dropdown-menu {
         background-color: #4A6484;
         border-bottom: 20px solid #1C3050;
-        background-image: url("Images/lion.png");
+        background-image: url("Images/lion-blue.png");
         background-repeat: no-repeat;
-        background-position: 90%;
+        background-position: 80%;
         background-size: contain;
     }
 
