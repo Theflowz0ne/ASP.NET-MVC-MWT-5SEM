@@ -1,0 +1,32 @@
+﻿body {
+    font-size: 16px;
+}
+
+@media only screen and (min-width:992px) {
+    .full-width {
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        left: 50% !important;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+/* colors */
+
+    /* the yellow highlight text color */
+    .color-highlight {
+        color: #DBC11F!important;
+    }
+
+    /* the color of the most-top bar and the footer */
+    .bg-color-dark-blue {
+        background-color: #1C3050!important;
+    }
+
+    .bg-color-light-blue {
+        background-color: #C6D9F0
+    }

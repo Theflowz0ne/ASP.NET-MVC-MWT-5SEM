@@ -173,7 +173,10 @@
     <Content Include="Content\Images\logo-mvr.png" />
     <Content Include="Content\Images\logo-mvr1.png" />
     <Content Include="Content\Images\Logo2.png" />
+    <Content Include="Content\Styles\MVR_Styles\footer.css" />
+    <Content Include="Content\Styles\MVR_Styles\navbar.css" />
     <Content Include="Content\Styles\MVR_Styles\styles.css" />
+    <Content Include="Content\Styles\MVR_Styles\most-top-bar.css" />
     <Content Include="Content\Styles\Yamm\yamm.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
