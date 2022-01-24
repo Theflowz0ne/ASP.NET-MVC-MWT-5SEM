@@ -1,5 +1,7 @@
 ﻿body {
+    font-size: 16px;
 }
+
 @media only screen and (min-width:992px) {
     .full-width {
         width: 100vw;
@@ -8,3 +10,43 @@
         left: 50% !important;
     }
 }
+
+a {
+    text-decoration: none;
+}
+
+/* colors */
+
+    /* the yellow highlight text color */
+    .color-highlight {
+        color: #DBC11F!important;
+    }
+
+    /* the color of the most-top bar and the footer */
+    .bg-color-dark-blue {
+        background-color: #1C3050!important;
+    }
+
+/* the most-top bar styles */
+.most-top-bar {
+    font-size: 0.75em;
+    color: #CFD8DC;
+}
+
+    .most-top-bar a {
+        color: #CFD8DC;
+    }
+
+/* navbar styles */
+.navbar {
+    height: 70px;
+    font-weight: 700;
+}
+
+    .navbar a {
+        color: #1C3050 !important;
+    }
+
+    .navbar a:hover {
+        color: #0288D1 !important;
+    }

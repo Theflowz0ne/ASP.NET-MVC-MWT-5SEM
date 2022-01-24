@@ -8,6 +8,22 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
+    <div class="most-top-bar container-fluid bg-color-dark-blue">
+        <div class="container d-flex align-items-center justify-content-between" style="height: 32px">
+            <div class="d-flex">
+                @Html.ActionLink("Портал на МВР", "Index", "Home", null, new { @class = "color-highlight" })
+                <div class="ms-5">
+                    <a href="https://www.government.bg/">government.bg</a> |
+                    <a href="https://www.government.bg/cgi-bin/e-cms/vis/vis.pl?s=001&p=0024">Сектори</a>
+                </div>
+            </div>
+            <div>
+                @Html.ActionLink("Начална страница", "Index", "Home", null, new { @class = "" }) |
+                @Html.ActionLink("Карта на сайта", "Index", "Home", null, new { @class = "" }) |
+                @Html.ActionLink("Контакти", "Index", "Home", null, new { @class = "" })
+            </div>
+        </div>
+    </div>
     @*<div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -65,101 +81,98 @@
                             {
                                 <li>@Html.ActionLink("Login", "Login", "Users", null, new { @class = "nav-link" })</li>
                             }
-                         </li>
-                            <li class="nav-item dropdown yamm-fw">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Министерството
-                                </a>
-                                <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <div class="yamm-content">
+                        </li>
+                        <li class="nav-item dropdown yamm-fw">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                МИНИСТЕРСТВОТО
+                            </a>
+                            <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="yamm-content">
+                                    <div class="container">
                                         <ul>
-                                            <div class="container">
                                             <li>@Html.ActionLink("Home", "Index", "Home", null, new { @class = "nav-link" })</li>
-                                            </div>
                                         </ul>
                                     </div>
-                                </ul>
-                            </li>
-                             <li class="nav-item dropdown yamm-fw">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Обществен ред и сигурност
-                                </a>
-                                <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <div class="yamm-content">
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown yamm-fw">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                ОБЩЕСТВЕН РЕД И СИГУРНОСТ
+                            </a>
+                            <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="yamm-content">
+                                    <div class="container">
                                         <ul>
-                                            <div class="container">
                                             <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
-                                            </div>
                                         </ul>
                                     </div>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown yamm-fw">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Административно обслужване
-                                </a>
-                                <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <div class="yamm-content">
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown yamm-fw">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                АДМИНИСТРАТИВНО ОБСЛУЖВАНЕ
+                            </a>
+                            <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="yamm-content">
+                                    <div class="container">
                                         <ul>
-                                            <div class="container">
                                             <li>@Html.ActionLink("Contact", "Contact", "Home", null, new { @class = "nav-link" })</li>
-                                            </div>
                                         </ul>
                                     </div>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown yamm-fw">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Пресцентър
-                                </a>
-                                <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <div class="yamm-content">
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown yamm-fw">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                ПРЕСЦЕНТЪР
+                            </a>
+                            <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="yamm-content">
+                                    <div class="container">
                                         <ul>
-                                            <div class="container">
                                             <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
-                                            </div>
                                         </ul>
                                     </div>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown yamm-fw">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Брекзит
-                                </a>
-                                <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <div class="yamm-content">
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown yamm-fw">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                БРЕКЗИТ
+                            </a>
+                            <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="yamm-content">
+                                    <div class="container">
                                         <ul>
-                                            <div class="container">
                                             <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
-                                            </div>
                                         </ul>
                                     </div>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
-            </nav>
-       
-</div>
-
-
-
-
-            <div class="container body-content">
-                @RenderBody()
-                <hr />
-                <footer>
-                    <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-                </footer>
             </div>
+        </nav>
+    </div>
 
-            @Scripts.Render("~/bundles/jquery")
-            @Scripts.Render("~/bundles/bootstrap")
-            @RenderSection("scripts", required: false)
-    </body>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
 </html>
