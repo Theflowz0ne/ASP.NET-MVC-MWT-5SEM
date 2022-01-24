@@ -17,7 +17,7 @@
 }
 
 .dropdown-menu {
-    background-color: #4A6484;
+    background-color: var(--dropdown-blue);
     border-bottom: 20px solid var(--dark-blue);
     background-image: url("../../Images/lion-blue.png");
     background-repeat: no-repeat;
