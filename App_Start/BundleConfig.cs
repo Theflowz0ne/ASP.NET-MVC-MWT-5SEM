@@ -23,9 +23,13 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/yamm.css",
-                      "~/Content/styles.css"
+                      "~/Content/Styles/Bootstrap/bootstrap.css",
+                      "~/Content/Styles/Yamm/yamm.css",
+                      "~/Content/Styles/MVR_Styles/colors.css",
+                      "~/Content/Styles/MVR_Styles/utils.css",
+                      "~/Content/Styles/MVR_Styles/navbar.css",
+                      "~/Content/Styles/MVR_Styles/most-top-bar.css",
+                      "~/Content/Styles/MVR_Styles/footer.css"
                       ));
         }
     }

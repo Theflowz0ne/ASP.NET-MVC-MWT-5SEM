@@ -1,0 +1,40 @@
+﻿.navbar {
+    font-weight: 700;
+}
+
+@media only screen and (min-width:992px) {
+    .navbar {
+        height: 70px;
+    }
+}
+
+.navbar a {
+    color: var(--dark-blue) !important;
+}
+
+.navbar a:hover {
+    color: var(--aqua-blue) !important;
+}
+
+.dropdown-menu {
+    background-color: #4A6484;
+    border-bottom: 20px solid var(--dark-blue);
+    background-image: url("../../Images/lion-blue.png");
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: contain;
+}
+
+.navbar-dropdown-titles {
+    color: #DBC11F !important;
+    font-weight: bold;
+}
+
+.navbar-dropdown-items a {
+    color: white !important;
+}
+
+.navbar-dropdown-items a:hover {
+    color: white !important;
+    text-decoration: underline;
+}

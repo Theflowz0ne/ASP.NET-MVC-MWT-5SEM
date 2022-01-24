@@ -1,0 +1,8 @@
+﻿.most-top-bar {
+    font-size: 0.75em;
+    color: var(--white-text-color);
+}
+
+.most-top-bar a {
+    color: var(--white-text-color);
+}

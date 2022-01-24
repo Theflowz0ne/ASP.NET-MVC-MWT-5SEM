@@ -1,0 +1,30 @@
+﻿body {
+    font-size: 16px;
+}
+
+@media only screen and (min-width:992px) {
+    .full-width {
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        left: 50% !important;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+/* colors */
+
+.color-yellow {
+    color: var(--yellow)!important;
+}
+
+.bg-color-dark-blue {
+    background-color: var(--dark-blue)!important;
+}
+
+.bg-color-light-blue {
+    background-color: var(--light-blue);
+}
