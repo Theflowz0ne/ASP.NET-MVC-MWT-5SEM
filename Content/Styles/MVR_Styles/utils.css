@@ -28,3 +28,8 @@ a {
 .bg-color-light-blue {
     background-color: var(--light-blue);
 }
+
+/* hide the dropdown arrows (we need this in the navbar) */
+.dropdown-toggle::after {
+    display: none;
+}
