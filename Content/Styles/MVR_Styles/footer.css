@@ -11,3 +11,6 @@
     color:var(--white-text-color);
 }
 
+footer {
+    margin-top: 40px;
+}
