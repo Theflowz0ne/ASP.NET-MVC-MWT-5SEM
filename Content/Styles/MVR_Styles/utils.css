@@ -6,6 +6,7 @@
 body {
     font-size: 16px;
     font-family: roboto;
+    background-color: var(--body-background-color);
 }
 
 @media only screen and (min-width:992px) {

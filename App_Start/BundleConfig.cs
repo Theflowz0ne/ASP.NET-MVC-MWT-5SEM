@@ -29,6 +29,7 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC
                       "~/Content/Styles/MVR_Styles/utils.css",
                       "~/Content/Styles/MVR_Styles/navbar.css",
                       "~/Content/Styles/MVR_Styles/most-top-bar.css",
+                      "~/Content/Styles/MVR_Styles/header.css",
                       "~/Content/Styles/MVR_Styles/footer.css"
                       ));
         }

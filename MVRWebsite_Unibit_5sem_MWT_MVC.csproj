@@ -177,6 +177,7 @@
     <Content Include="Content\Images\Logo2.png" />
     <Content Include="Content\Styles\MVR_Styles\colors.css" />
     <Content Include="Content\Styles\MVR_Styles\footer.css" />
+    <Content Include="Content\Styles\MVR_Styles\header.css" />
     <Content Include="Content\Styles\MVR_Styles\navbar.css" />
     <Content Include="Content\Styles\MVR_Styles\utils.css" />
     <Content Include="Content\Styles\MVR_Styles\most-top-bar.css" />
