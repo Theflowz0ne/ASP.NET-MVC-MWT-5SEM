@@ -152,6 +152,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\arrow-footer.png" />
+    <Content Include="Content\Images\mvr-map.png" />
     <Content Include="Content\Styles\Bootstrap\bootstrap-grid.css" />
     <Content Include="Content\Styles\Bootstrap\bootstrap-grid.min.css" />
     <Content Include="Content\Styles\Bootstrap\bootstrap-grid.rtl.css" />

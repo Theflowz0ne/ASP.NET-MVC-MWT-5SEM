@@ -39,3 +39,8 @@ a {
 .dropdown-toggle::after {
     display: none;
 }
+
+/*List arrow decoration*/
+.decorator-arrow li {
+    list-style-image: url("../../Images/arrow-footer.png");
+}
