@@ -1,0 +1,171 @@
+﻿<nav class="navbar yamm navbar-expand-lg navbar-light bg-color-light-blue">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                @if (Session["username"] != null)
+                {
+                    <li class="nav-item">@Html.ActionLink("Logout", "Logout", "Users", null, new { @class = "nav-link" })</li>
+                }
+                else
+                {
+                    <li class="nav-item">@Html.ActionLink("Login", "Login", "Users", null, new { @class = "nav-link" })</li>
+                }
+                <li class="nav-item dropdown yamm-fw">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        МИНИСТЕРСТВОТО
+                    </a>
+                    <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="yamm-content">
+                            <div class="container">
+                                <div class="row navbar-dropdown-titles">
+                                    <div class="col-md">
+                                        ЗА МИНИСТЕРСТВОТО НА ВЪТРЕШНИТЕ РАБОТИ
+                                    </div>
+                                    <div class="col-md">
+                                        ОСНОВНИ СТРУКТУРИ НА МВР
+                                    </div>
+                                    <div class="col-md">
+                                        ПРОГРАМНИ ДОКУМЕНТИ, ОТЧЕТИ И АНАЛИЗИ
+                                    </div>
+                                    <div class="col-md">
+                                        ПРОФИЛ НА КУПУВАЧА
+                                    </div>
+                                    <div class="col-md">
+                                        ДОСТЪП ДО ИНФОРМАЦИЯ
+                                    </div>
+                                    <div class="col-md">
+                                        АНТИКОРУПЦИЯ
+                                    </div>
+                                </div>
+                                <div class="row navbar-dropdown-items">
+                                    <div class="col-md">
+                                        @Html.ActionLink("Ръководство", "Index", "Home")
+                                        @Html.ActionLink("Министър на вътрешните работи", "Index", "Home")
+                                        @Html.ActionLink("Политически кабинет", "Index", "Home")
+                                        @Html.ActionLink("Структура и численост", "Index", "Home")
+                                        @Html.ActionLink("Постъпване на работа в МВР - Конкурси", "Index", "Home")
+                                        @Html.ActionLink("Стратегически документи", "Index", "Home")
+                                        @Html.ActionLink("Съвети и комисии", "Index", "Home")
+                                        @Html.ActionLink("Международно сътрудничество", "Index", "Home")
+                                        @Html.ActionLink("Нормативна уредба", "Index", "Home")
+                                        @Html.ActionLink("Етичен кодекс", "Index", "Home")
+                                        @Html.ActionLink("Регистър на декларации по ЗПКОНПИ", "Index", "Home")
+                                        @Html.ActionLink("Унироми и отличителни знаци", "Index", "Home")
+                                        @Html.ActionLink("История на МВР", "Index", "Home")
+                                        @Html.ActionLink("Музей на МВР", "Index", "Home")
+                                        @Html.ActionLink("Полезно за Вас", "Index", "Home")
+                                        @Html.ActionLink("Контакти", "Index", "Home")
+                                    </div>
+                                    <div class="col-md">
+                                        @Html.ActionLink("Главна дирекция \"Национална полиция\"", "Index", "Home")
+                                        @Html.ActionLink("Главна дирекция \"Борба с организираната престъпност\"", "Index", "Home")
+                                        @Html.ActionLink("Главна дирекция \"Гранична полиция\"", "Index", "Home")
+                                        @Html.ActionLink("Главна дирекция \"Пожарна безопасност и защита на населението\"", "Index", "Home")
+                                        @Html.ActionLink("Главна дирекция \"Жандармерия, специални операции и борба с тероризма\"", "Index", "Home")
+                                        @Html.ActionLink("Областни дирекции на МВР", "Index", "Home")
+                                        @Html.ActionLink("Дирекции на МВР", "Index", "Home")
+                                        @Html.ActionLink("Дирекции от общата и специализираната администрация", "Index", "Home")
+                                        @Html.ActionLink("Академия на МВР", "Index", "Home")
+                                        @Html.ActionLink("Медицински институт на МВР", "Index", "Home")
+                                        @Html.ActionLink("Институт по психология на МВР", "Index", "Home")
+                                        @Html.ActionLink("Национален институт по криминалистика", "Index", "Home")
+                                    </div>
+                                    <div class="col-md">
+                                        @Html.ActionLink("Бюджет и финансови отчети", "Index", "Home")
+                                        @Html.ActionLink("Програмни документи, отчети и анализи", "Index", "Home")
+                                        @Html.ActionLink("Статистика", "Index", "Home")
+                                    </div>
+                                    <div class="col-md">
+                                        @Html.ActionLink("Възложител Министъра на вътрешните работи или упълномощено от него длъжностно лице", "Index", "Home")
+                                        @Html.ActionLink("Възложител Дирекция “Управление на собствеността и социални дейности”", "Index", "Home")
+                                        @Html.ActionLink("Търгове", "Index", "Home")
+                                        @Html.ActionLink("Профили на купувача с възложител ръководители на структури по чл.37 от ЗМВР", "Index", "Home")
+                                        @Html.ActionLink("Дирекция \"Обществени поръчки\"", "Index", "Home")
+                                    </div>
+                                    <div class="col-md">
+                                        @Html.ActionLink("Официални съобщения по чл. 61 от АПК", "Index", "Home")
+                                        @Html.ActionLink("Други официални съобщения", "Index", "Home")
+                                        @Html.ActionLink("Документи от служебни фондове на архива на МВР", "Index", "Home")
+                                        @Html.ActionLink("Достъп до обществена информация", "Index", "Home")
+                                        @Html.ActionLink("Търсене в документи", "Index", "Home")
+                                        @Html.ActionLink("Вътрешни правила за реда и условията за сключване на договори за дарения, получаване и управление на дарения в МВР", "Index", "Home")
+                                        @Html.ActionLink("Длъжностно лице по защита на личните данни", "Index", "Home")
+                                    </div>
+                                    <div class="col-md">
+                                        @Html.ActionLink("Сигнали за корупция в МВР", "Index", "Home")
+                                        @Html.ActionLink("Вътрешноведомствен координационен съвет за борба с корупцията", "Index", "Home")
+                                        @Html.ActionLink("КОНЦЕПЦИЯ за превенция и противодействие на корупцията в МВР 2016-2020 г.", "Index", "Home")
+                                        @Html.ActionLink("Антикорупция", "Index", "Home")
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown yamm-fw">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ОБЩЕСТВЕН РЕД И СИГУРНОСТ
+                    </a>
+                    <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="yamm-content">
+                            <div class="container">
+                                <ul>
+                                    <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown yamm-fw">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        АДМИНИСТРАТИВНО ОБСЛУЖВАНЕ
+                    </a>
+                    <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="yamm-content">
+                            <div class="container">
+                                <ul>
+                                    <li>@Html.ActionLink("Contact", "Contact", "Home", null, new { @class = "nav-link" })</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown yamm-fw">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ПРЕСЦЕНТЪР
+                    </a>
+                    <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="yamm-content">
+                            <div class="container">
+                                <ul>
+                                    <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown yamm-fw">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        БРЕКЗИТ
+                    </a>
+                    <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="yamm-content">
+                            <div class="container">
+                                <ul>
+                                    <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Въведете дума или израз" aria-label="Search" />
+                <button class="btn btn-primary search-button" type="submit">ТЪРСИ В МВР</button>
+            </form>
+        </div>
+    </div>
+</nav>
