@@ -5,14 +5,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                @if (Session["username"] != null)
-                {
-                    <li class="nav-item">@Html.ActionLink("Logout", "Logout", "Users", null, new { @class = "nav-link" })</li>
-                }
-                else
-                {
-                    <li class="nav-item">@Html.ActionLink("Login", "Login", "Users", null, new { @class = "nav-link" })</li>
-                }
                 <li class="nav-item dropdown yamm-fw">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         МИНИСТЕРСТВОТО
@@ -112,9 +104,67 @@
                     <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
                         <div class="yamm-content">
                             <div class="container">
-                                <ul>
-                                    <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
-                                </ul>
+                                <div class="row navbar-dropdown-titles">
+                                    <div class="col-md">
+                                        НАЦИОНАЛНА ПОЛИЦИЯ
+                                    </div>
+                                    <div class="col-md">
+                                        БОРБА С ОРГАНИЗИРАНАТА ПРЕСТЪПНОСТ
+                                    </div>
+                                    <div class="col-md">
+                                        ПОЖАРНА БЕЗОПАСНОСТ И ЗАЩИТА НА НАСЕЛЕНИЕТО
+                                    </div>
+                                    <div class="col-md">
+                                        ГРАНИЧНА ПОЛИЦИЯ
+                                    </div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                </div>
+                                <div class="row navbar-dropdown-items">
+                                    <div class="col-md">
+                                        @Html.ActionLink("Главна дирекция \"Национална полиция\"", "Index", "Home")
+                                        @Html.ActionLink("Функции на Главна дирекция \"Национална полиция\"", "Index", "Home")
+                                        @Html.ActionLink("Административни услуги", "Index", "Home")
+                                        @Html.ActionLink("Актуална информация", "Index", "Home")
+                                        @Html.ActionLink("Полезни документи", "Index", "Home")
+                                        @Html.ActionLink("Международни проекти", "Index", "Home")
+                                        @Html.ActionLink("Пътен контрол", "Index", "Home")
+                                    </div>
+                                    <div class="col-md">
+                                        @Html.ActionLink("Главна дирекция \"Борба с организираната престъпност\"", "Index", "Home")
+                                        @Html.ActionLink("Наркотици", "Index", "Home")
+                                        @Html.ActionLink("Трафик на хора", "Index", "Home")
+                                        @Html.ActionLink("Киберпрестъпност", "Index", "Home")
+                                        @Html.ActionLink("Контратероризъм", "Index", "Home")
+                                        @Html.ActionLink("Корупция и изпиране на пари", "Index", "Home")
+                                        @Html.ActionLink("Фалшификации", "Index", "Home")
+                                        @Html.ActionLink("Контрабанда", "Index", "Home")
+                                        @Html.ActionLink("Разследване", "Index", "Home")
+                                        @Html.ActionLink("Трафик на културно исторически ценности", "Index", "Home")
+                                        @Html.ActionLink("Междуведомствен координационен център", "Index", "Home")
+                                    </div>
+                                    <div class="col-md">
+                                        @Html.ActionLink("Главна дирекция \"Пожарна безопасност и защита на населението\"", "Index", "Home")
+                                        @Html.ActionLink("Актуална информация за оперативната обстановка", "Index", "Home")
+                                        @Html.ActionLink("Пожарогасителна дейност", "Index", "Home")
+                                        @Html.ActionLink("Спасителна дейност", "Index", "Home")
+                                        @Html.ActionLink("Доброволни формирования", "Index", "Home")
+                                        @Html.ActionLink("Държавен противопожарен контрол", "Index", "Home")
+                                        @Html.ActionLink("Превантивна дейност и контрол", "Index", "Home")
+                                        @Html.ActionLink("Научно-приложна и експертна дейност", "Index", "Home")
+                                        @Html.ActionLink("Информационно-аналитична дейност", "Index", "Home")
+                                        @Html.ActionLink("Международно сътрудничество и хуманитарни операции", "Index", "Home")
+                                    </div>
+                                    <div class="col-md">
+                                        @Html.ActionLink("Главна дирекция \"Гранична полиция\"", "Index", "Home")
+                                        @Html.ActionLink("Регионални звена", "Index", "Home")
+                                        @Html.ActionLink("Международно сътрудничество", "Index", "Home")
+                                        @Html.ActionLink("Актуална информация за пътуване в страните членки на ЕС и за пътуващите през територията на Р България", "Index", "Home")
+                                        @Html.ActionLink("Трафик по ГКПП", "Index", "Home")
+                                    </div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                </div>
                             </div>
                         </div>
                     </ul>
@@ -126,9 +176,45 @@
                     <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
                         <div class="yamm-content">
                             <div class="container">
-                                <ul>
-                                    <li>@Html.ActionLink("Contact", "Contact", "Home", null, new { @class = "nav-link" })</li>
-                                </ul>
+                                <div class="row navbar-dropdown-titles">
+                                    <div class="col-md">
+                                        ЕЛЕКТРОННИ УСЛУГИ И СПРАВКИ
+                                    </div>
+                                    <div class="col-md">
+                                        СПИСЪК С УСЛУГИ
+                                    </div>
+                                    <div class="col-md">
+                                        ПОЛЕЗНО ЗА ВАС
+                                    </div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                </div>
+                                <div class="row navbar-dropdown-items">
+                                    <div class="col-md">
+                                        @Html.ActionLink("Електронни административни услуги", "Index", "Home")
+                                        @Html.ActionLink("Справки по електронни административни услуги", "Index", "Home")
+                                        @Html.ActionLink("Справка за издадени и неполучени български лични документи", "Index", "Home")
+                                        @Html.ActionLink("Справка за валидност на български лични документи", "Index", "Home")
+                                        @Html.ActionLink("Издаване на лична карта, паспорт или свидетелство за управление на МПС за български граждани,живеещи извън пределите на Република България", "Index", "Home")
+                                        @Html.ActionLink("Портал за електронни административни услуги", "Index", "Home")
+                                    </div>
+                                    <div class="col-md">
+                                        @Html.ActionLink("Направление на дейност \"Пътна полиция\"", "Index", "Home")
+                                        @Html.ActionLink("Направление на дейност \"Български документи за самоличност\"", "Index", "Home")
+                                        @Html.ActionLink("Направление на дейност \"Пожарна безопасност и защита на населението\"", "Index", "Home")
+                                        @Html.ActionLink("Направление на дейност \"Миграция\"", "Index", "Home")
+                                        @Html.ActionLink("Направление на дейност \"Частна охранителна дейност\"", "Index", "Home")
+                                        @Html.ActionLink("Направление на дейност \"Контрол на общоопасните средства\"", "Index", "Home")
+                                    </div>
+                                    <div class="col-md">
+                                        @Html.ActionLink("Годишен доклад за оценка на удовлетвореността на потребителите", "Index", "Home")
+                                        @Html.ActionLink("Документи", "Index", "Home")
+                                    </div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                </div>
                             </div>
                         </div>
                     </ul>
@@ -140,9 +226,38 @@
                     <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
                         <div class="yamm-content">
                             <div class="container">
-                                <ul>
-                                    <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
-                                </ul>
+                                <div class="row navbar-dropdown-titles">
+                                    <div class="col-md">
+                                        АКТУАЛНА ИНФОРМАЦИЯ
+                                    </div>
+                                    <div class="col-md">
+                                        ПРЕСЦЕНТЪР
+                                    </div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                </div>
+                                <div class="row navbar-dropdown-items">
+                                    <div class="col-md">
+                                        @Html.ActionLink("Актуално", "Index", "Home")
+                                        @Html.ActionLink("Новини", "Index", "Home")
+                                        @Html.ActionLink("Информационен бюлетин", "Index", "Home")
+                                        @Html.ActionLink("Пътна обстановка", "Index", "Home")
+                                    </div>
+                                    <div class="col-md">
+                                        @Html.ActionLink("Дирекция \"Пресцентър и връзки с обществеността\"", "Index", "Home")
+                                        @Html.ActionLink("Кампании", "Index", "Home")
+                                        @Html.ActionLink("Парламентарен контрол", "Index", "Home")
+                                        @Html.ActionLink("МВР в медиите", "Index", "Home")
+                                        @Html.ActionLink("Другите за нас", "Index", "Home")
+                                        @Html.ActionLink("Контакти", "Index", "Home")
+                                    </div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                </div>
                             </div>
                         </div>
                     </ul>
@@ -154,13 +269,38 @@
                     <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
                         <div class="yamm-content">
                             <div class="container">
-                                <ul>
-                                    <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
-                                </ul>
+                                <div class="row navbar-dropdown-titles">
+                                    <div class="col-md">
+                                        БРЕКЗИТ
+                                    </div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                </div>
+                                <div class="row navbar-dropdown-items">
+                                    <div class="col-md">
+                                        @Html.ActionLink("Информация за Брекзит", "Index", "Home")
+                                    </div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                    <div class="col-md"></div>
+                                </div>
                             </div>
                         </div>
                     </ul>
                 </li>
+                @if (Session["username"] != null)
+                {
+                    <li class="nav-item">@Html.ActionLink("Logout", "Logout", "Users", null, new { @class = "nav-link" })</li>
+                }
+                else
+                {
+                    <li class="nav-item">@Html.ActionLink("Login", "Login", "Users", null, new { @class = "nav-link" })</li>
+                }
             </ul>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Въведете дума или израз" aria-label="Search" />
