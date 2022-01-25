@@ -31,141 +31,138 @@
                 <img src="~/Content/Images/Logo2.png" />
             </div>
             <div class="col">
-                
+
             </div>
         </div>
     </div>
-    <div class="row">
-        <nav class="navbar yamm navbar-expand-lg navbar-light bg-color-light-blue">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item me-auto">
-                            @if (Session["username"] != null)
-                            {
-                                <li>@Html.ActionLink("Logout", "Logout", "Users", null, new { @class = "nav-link" })</li>
-                            }
-                            else
-                            {
-                                <li>@Html.ActionLink("Login", "Login", "Users", null, new { @class = "nav-link" })</li>
-                            }
-                        </li>
-                        <li class="nav-item dropdown yamm-fw">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                МИНИСТЕРСТВОТО
-                            </a>
-                            <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
-                                <div class="yamm-content">
-                                    <div class="container">
-                                        <div class="row navbar-dropdown-titles">
-                                            <div class="col-md">
-                                                ЗА МИНИСТЕРСТВОРО НА ВЪТРЕШНИТЕ РАБОТИ
-                                            </div>
-                                            <div class="col-md">
-                                                ОСНОВНИ СТРУКТУРИ НА МВР
-                                            </div>
-                                            <div class="col-md">
-                                                ЗА МИНИСТЕРСТВОРО НА ВЪТРЕШНИТЕ РАБОТИ
-                                            </div>
+
+    <nav class="navbar yamm navbar-expand-lg navbar-light bg-color-light-blue">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    @if (Session["username"] != null)
+                    {
+                        <li class="nav-item">@Html.ActionLink("Logout", "Logout", "Users", null, new { @class = "nav-link" })</li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">@Html.ActionLink("Login", "Login", "Users", null, new { @class = "nav-link" })</li>
+                    }
+                    <li class="nav-item dropdown yamm-fw">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            МИНИСТЕРСТВОТО
+                        </a>
+                        <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="yamm-content">
+                                <div class="container">
+                                    <div class="row navbar-dropdown-titles">
+                                        <div class="col-md">
+                                            ЗА МИНИСТЕРСТВОРО НА ВЪТРЕШНИТЕ РАБОТИ
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md navbar-dropdown-items">
-                                                @Html.ActionLink("Home", "Index", "Home")<br>
-                                                @Html.ActionLink("Home", "Index", "Home")<br>
-                                                Ръководство<br>
-                                                Ръководство<br>
-                                                Ръководство<br>
-                                                Ръководство<br>
-                                                Ръководство<br>
-                                                Ръководство<br>
-                                                Ръководство<br>
-                                                Ръководство<br>
-                                                Ръководство<br>
-                                                Ръководство<br>
-                                                Ръководство<br>
-                                            </div>
-                                            <div class="col-md">
-                                                Ръководство<br>
-                                                Ръководство<br>
-                                                Ръководство<br>
-                                                Ръководство<br>
-                                            </div>
-                                            <div class="col-md">
-                                                Ръководство<br>
-                                            </div>
+                                        <div class="col-md">
+                                            ОСНОВНИ СТРУКТУРИ НА МВР
+                                        </div>
+                                        <div class="col-md">
+                                            ЗА МИНИСТЕРСТВОРО НА ВЪТРЕШНИТЕ РАБОТИ
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md navbar-dropdown-items">
+                                            @Html.ActionLink("Home", "Index", "Home")<br>
+                                            @Html.ActionLink("Home", "Index", "Home")<br>
+                                            Ръководство<br>
+                                            Ръководство<br>
+                                            Ръководство<br>
+                                            Ръководство<br>
+                                            Ръководство<br>
+                                            Ръководство<br>
+                                            Ръководство<br>
+                                            Ръководство<br>
+                                            Ръководство<br>
+                                            Ръководство<br>
+                                            Ръководство<br>
+                                        </div>
+                                        <div class="col-md">
+                                            Ръководство<br>
+                                            Ръководство<br>
+                                            Ръководство<br>
+                                            Ръководство<br>
+                                        </div>
+                                        <div class="col-md">
+                                            Ръководство<br>
                                         </div>
                                     </div>
                                 </div>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown yamm-fw">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                ОБЩЕСТВЕН РЕД И СИГУРНОСТ
-                            </a>
-                            <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
-                                <div class="yamm-content">
-                                    <div class="container">
-                                        <ul>
-                                            <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
-                                        </ul>
-                                    </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown yamm-fw">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            ОБЩЕСТВЕН РЕД И СИГУРНОСТ
+                        </a>
+                        <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="yamm-content">
+                                <div class="container">
+                                    <ul>
+                                        <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
+                                    </ul>
                                 </div>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown yamm-fw">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                АДМИНИСТРАТИВНО ОБСЛУЖВАНЕ
-                            </a>
-                            <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
-                                <div class="yamm-content">
-                                    <div class="container">
-                                        <ul>
-                                            <li>@Html.ActionLink("Contact", "Contact", "Home", null, new { @class = "nav-link" })</li>
-                                        </ul>
-                                    </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown yamm-fw">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            АДМИНИСТРАТИВНО ОБСЛУЖВАНЕ
+                        </a>
+                        <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="yamm-content">
+                                <div class="container">
+                                    <ul>
+                                        <li>@Html.ActionLink("Contact", "Contact", "Home", null, new { @class = "nav-link" })</li>
+                                    </ul>
                                 </div>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown yamm-fw">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                ПРЕСЦЕНТЪР
-                            </a>
-                            <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
-                                <div class="yamm-content">
-                                    <div class="container">
-                                        <ul>
-                                            <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
-                                        </ul>
-                                    </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown yamm-fw">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            ПРЕСЦЕНТЪР
+                        </a>
+                        <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="yamm-content">
+                                <div class="container">
+                                    <ul>
+                                        <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
+                                    </ul>
                                 </div>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown yamm-fw">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                БРЕКЗИТ
-                            </a>
-                            <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
-                                <div class="yamm-content">
-                                    <div class="container">
-                                        <ul>
-                                            <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
-                                        </ul>
-                                    </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown yamm-fw">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            БРЕКЗИТ
+                        </a>
+                        <ul class="full-width dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="yamm-content">
+                                <div class="container">
+                                    <ul>
+                                        <li>@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link" })</li>
+                                    </ul>
                                 </div>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 
     <div class="container body-content">
         @RenderBody()
