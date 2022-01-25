@@ -36,9 +36,7 @@
         </div>
     </div>
 
-    @{
-        Html.RenderPartial("_Navbar");
-    }
+    @Html.Partial("_Navbar")
 
     <div class="container body-content">
         @RenderBody()
