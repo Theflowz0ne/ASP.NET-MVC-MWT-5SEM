@@ -1,5 +1,11 @@
-﻿body {
+﻿@font-face {
+    font-family: roboto;
+    src: url("../../Fonts/RobotoCondensed.ttf");
+}
+
+body {
     font-size: 16px;
+    font-family: roboto;
 }
 
 @media only screen and (min-width:992px) {

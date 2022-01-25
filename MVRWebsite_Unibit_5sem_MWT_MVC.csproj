@@ -227,6 +227,7 @@
     <Content Include="Content\Styles\Bootstrap\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\Styles\Bootstrap\bootstrap-grid.min.css.map" />
     <Content Include="Content\Styles\Bootstrap\bootstrap-grid.css.map" />
+    <Content Include="Content\Fonts\RobotoCondensed.ttf" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.6.0.js" />
     <Content Include="Scripts\jquery-3.6.0.min.js" />
