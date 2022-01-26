@@ -1,0 +1,33 @@
+﻿.news-and-updates-cards .card {
+    border: none;
+}
+
+.news-and-updates-cards .card-header {
+    background-color: var(--purple-blue);
+    color: var(--light-blue);
+    font-weight: 700;
+}
+
+.news-and-updates-cards > .card-body {
+    padding: 0;
+}
+
+.news-and-updates-cards img {
+    border-radius: 5px;
+}
+
+.news-and-updates-cards .title {
+    font-size: 1.2em;
+}
+
+.news-and-updates-cards .summary {
+    font-size: 0.87em;
+    font-weight: 700;
+}
+
+.news-and-updates-cards .card-footer {
+    font-size: 0.65em;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+}
