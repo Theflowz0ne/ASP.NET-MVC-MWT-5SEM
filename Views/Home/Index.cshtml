@@ -2,13 +2,7 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-
-@if (Session["username"] != null)
+@*@if (Session["username"] != null)
 {
 <p>Hello, @Session["username"]</p>
 }
@@ -39,6 +33,98 @@
             <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
         </div>
     }
+</div>*@
+
+<div class="row">
+    <div class="col">
+        <div class="card news-and-updates-cards">
+            <div class="card-header">
+                АКТУАЛНО
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div class="card-group">
+                        <!-- Информация от Дирекция "Български документи за самоличност" -->
+                        <div class="card">
+                            <img src="~/Content/Images/news-and-updates/bulgrski-dokumenti-za-samolichnost.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <a class="title" href="#">
+                                    Информация от Дирекция "Български документи за самоличност"
+                                </a>
+                                <p class="summary">
+                                    Остава графикът на дежурствата на столичните звена БДС съботните дни на месец януари
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                19 яну 2022
+                            </div>
+                        </div>
 
 
+                        <!-- Станете партньор на МВР... -->
+                        <div class="card ms-3">
+                            <img src="~/Content/Images/news-and-updates/stanete-partnior.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <a class="title" href="#">
+                                    Станете партньор на МВР в дарителската кампания в подкрепа на децата на загиналите и пострадалите полицаи и пожарникари
+                                </a>
+                                <p class="summary">
+                                    Вярваме в незаменимия принос на медиите за популяризиране на нашата кауза
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                17 дек 2021
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card news-and-updates-cards">
+            <div class="card-header">
+                НОВИНИ
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div class="card-group">
+                        <!-- Полицията издирва 11-годишно момиче -->
+                        <div class="card">
+                            <img src="~/Content/Images/news-and-updates/izdirva.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <a class="title" href="#">
+                                    Полицията издирва 11-годишно момиче
+                                </a>
+                                <p class="summary">
+                                    Любка Серафимова Михайлова от гр. Вършец, област Монтана е в неизвестност от 22 януари
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                25 яну 2022
+                            </div>
+                        </div>
+
+
+                        <!-- Станете партньор на МВР... -->
+                        <div class="card ms-3">
+                            <img src="~/Content/Images/news-and-updates/specoperaciq.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <a class="title" href="#">
+                                    Резултати от специализирана полицейска операция, проведена на територията на Враца
+                                </a>
+                                <p class="summary">
+                                    Спецоперацията за противодействие на престъпления, свързани с притежанието и разпространението
+                                    на наркотични вещеста е разследвана вчера ...
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                25 яну 2022
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
