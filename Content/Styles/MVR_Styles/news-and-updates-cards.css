@@ -1,4 +1,8 @@
-﻿.news-and-updates-cards .card {
+﻿.news-and-updates-cards {
+    height: 100%;
+}
+
+.news-and-updates-cards .card {
     border: none;
 }
 
