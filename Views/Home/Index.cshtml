@@ -3,38 +3,39 @@
 }
 
 @*@if (Session["username"] != null)
-{
-<p>Hello, @Session["username"]</p>
-}
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    @if (Session["role"] != null && Session["role"].ToString() == "Admin")
     {
-        <div class="col-md-4">
-            <h2>Admin</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </div>
+    <p>Hello, @Session["username"]</p>
     }
-    else if (Session["role"] != null && Session["role"].ToString() == "User")
-    {
-        <div class="col-md-4">
-            <h2>User</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </div>
-    }
-</div>*@
 
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Getting started</h2>
+            <p>
+                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+                enables a clean separation of concerns and gives you full control over markup
+                for enjoyable, agile development.
+            </p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        </div>
+        @if (Session["role"] != null && Session["role"].ToString() == "Admin")
+        {
+            <div class="col-md-4">
+                <h2>Admin</h2>
+                <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+                <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+            </div>
+        }
+        else if (Session["role"] != null && Session["role"].ToString() == "User")
+        {
+            <div class="col-md-4">
+                <h2>User</h2>
+                <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+                <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+            </div>
+        }
+    </div>*@
+
+<!-- Актуално и Новини -->
 <div class="row">
     <div class="col">
         <div class="card mvr-card">
@@ -117,6 +118,67 @@
                         </div>
                         <div class="card-footer">
                             25 яну 2022
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Сигнали и съвети и Профил на купувача -->
+<div class="row">
+    <div class="col">
+        <div class="card mvr-card">
+            <div class="card-header">
+                СИГНАЛИ И СЪВЕТИ
+            </div>
+            <div class="card-body">
+                <div class="container section-information">
+                    <div class="row">
+                        <div class="col">
+                            <h2>ПОДАЙ СИГНАЛ</h2>
+                            <p>
+                                Ползвайте телефон 112 в случай на внезапна реална заплаха за живота, здравето, 
+                                сигурността или имуществото си.
+                            </p>
+                            <img src="~/Content/Images/112.png">
+                        </div>
+                        <div class="col">
+                            <h2>ПОДАЙ СИГНАЛ</h2>
+                            <ul class="decorator-arrow">
+                                <li>Пожар</li>
+                                <li>Катастрофа</li>
+                                <li>Земетресение</li>
+                                <li>Наводнение</li>
+                                <li>Усложнена зимна обстановка</li>
+                                <li>Промишлена авария</li>
+                                <li>Радиационна авария</li>
+                                <li>Други бедствени ситуации</li>
+                                <li>COVID-19</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card mvr-card">
+            <div class="card-header">
+                ПРОФИЛ НА КУПУВАЧА
+            </div>
+            <div class="card-body">
+                <div class="container section-information">
+                    <div class="row">
+                        <div class="col">
+                            <ul class="decorator-arrow">
+                                <li>Възложител Министъра на вътрешните работи или упълномощено от него длъжностно лице</li>
+                                <li>Възложител Дирекция “Управление на собствеността и социални дейности”</li>
+                                <li>Търгове</li>
+                                <li>Профили на купувача с възложител ръководители на структури по чл.37 от ЗМВР</li>
+                                <li>Дирекция "Обществени поръчки"</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

@@ -152,6 +152,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\112.png" />
     <Content Include="Content\Images\arrow-footer.png" />
     <Content Include="Content\Images\mvr-map.png" />
     <Content Include="Content\Images\news-and-updates\bulgrski-dokumenti-za-samolichnost.jpg" />
