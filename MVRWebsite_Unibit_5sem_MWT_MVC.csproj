@@ -153,8 +153,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Images\112.png" />
+    <Content Include="Content\Images\app-phone.png" />
+    <Content Include="Content\Images\appstore.png" />
     <Content Include="Content\Images\arrow-footer.png" />
+    <Content Include="Content\Images\googleplay.png" />
     <Content Include="Content\Images\mvr-map.png" />
+    <Content Include="Content\Images\ne-si-sam.png" />
     <Content Include="Content\Images\news-and-updates\bulgrski-dokumenti-za-samolichnost.jpg" />
     <Content Include="Content\Images\news-and-updates\izdirva.jpg" />
     <Content Include="Content\Images\news-and-updates\specoperaciq.jpg" />
