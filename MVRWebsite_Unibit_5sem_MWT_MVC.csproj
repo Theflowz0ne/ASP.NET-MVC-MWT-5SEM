@@ -161,12 +161,16 @@
     <Content Include="Content\Images\dostup-na-hora-sus-sluhovi-govorni-uvrejdaniq.png" />
     <Content Include="Content\Images\googleplay.png" />
     <Content Include="Content\Images\kzld.png" />
+    <Content Include="Content\Images\mehanizum-speshno-podpolagane.png" />
     <Content Include="Content\Images\mvr-map.png" />
     <Content Include="Content\Images\ne-si-sam.png" />
     <Content Include="Content\Images\news-and-updates\bulgrski-dokumenti-za-samolichnost.jpg" />
     <Content Include="Content\Images\news-and-updates\izdirva.jpg" />
     <Content Include="Content\Images\news-and-updates\specoperaciq.jpg" />
     <Content Include="Content\Images\news-and-updates\stanete-partnior.jpg" />
+    <Content Include="Content\Images\postupvane-na-rabota.png" />
+    <Content Include="Content\Images\putna-policiq.png" />
+    <Content Include="Content\Images\ukrivat-se.png" />
     <Content Include="Content\Styles\Bootstrap\bootstrap-grid.css" />
     <Content Include="Content\Styles\Bootstrap\bootstrap-grid.min.css" />
     <Content Include="Content\Styles\Bootstrap\bootstrap-grid.rtl.css" />
