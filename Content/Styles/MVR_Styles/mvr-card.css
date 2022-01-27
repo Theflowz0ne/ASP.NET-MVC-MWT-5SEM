@@ -1,37 +1,43 @@
-﻿.news-and-updates-cards {
+﻿.mvr-card {
     height: 100%;
 }
 
-.news-and-updates-cards .card {
+.mvr-card .card {
     border: none;
 }
 
-.news-and-updates-cards .card-header {
+.mvr-card .card-header {
     background-color: var(--purple-blue);
     color: var(--light-blue);
     font-weight: 700;
 }
 
-.news-and-updates-cards > .card-body {
+.mvr-card > .card-body {
     padding: 0;
 }
 
-.news-and-updates-cards img {
+.mvr-card img {
     border-radius: 5px;
 }
 
-.news-and-updates-cards .title {
+.mvr-card .title {
     font-size: 1.2em;
 }
 
-.news-and-updates-cards .summary {
+.mvr-card .summary {
     font-size: 0.87em;
     font-weight: 700;
 }
 
-.news-and-updates-cards .card-footer {
+.mvr-card .card-footer {
     font-size: 0.65em;
     font-weight: 700;
     background-color: transparent;
     border: none;
+}
+
+@media (max-width: 992px) {
+    .mvr-card .mobile-flex-column {
+        flex-direction: column;
+    }
 }
