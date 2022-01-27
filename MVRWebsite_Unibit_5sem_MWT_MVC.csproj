@@ -156,7 +156,11 @@
     <Content Include="Content\Images\app-phone.png" />
     <Content Include="Content\Images\appstore.png" />
     <Content Include="Content\Images\arrow-footer.png" />
+    <Content Include="Content\Images\kampanii.png" />
+    <Content Include="Content\Images\concepciappkm.png" />
+    <Content Include="Content\Images\dostup-na-hora-sus-sluhovi-govorni-uvrejdaniq.png" />
     <Content Include="Content\Images\googleplay.png" />
+    <Content Include="Content\Images\kzld.png" />
     <Content Include="Content\Images\mvr-map.png" />
     <Content Include="Content\Images\ne-si-sam.png" />
     <Content Include="Content\Images\news-and-updates\bulgrski-dokumenti-za-samolichnost.jpg" />
