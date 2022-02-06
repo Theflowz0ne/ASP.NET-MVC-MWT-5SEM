@@ -29,7 +29,7 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC.Controllers
 
         public ActionResult Guide()
         {
-            return View();
+            return View("MVR/Guide");
         }
     }
 }
