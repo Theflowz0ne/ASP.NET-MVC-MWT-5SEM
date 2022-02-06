@@ -31,6 +31,7 @@ a {
 
 .article h3 {
     margin: 0 0 15px;
+    padding-bottom: 30px;
     font-size: 1.5em;
     color: var(--aqua-blue);
 }
