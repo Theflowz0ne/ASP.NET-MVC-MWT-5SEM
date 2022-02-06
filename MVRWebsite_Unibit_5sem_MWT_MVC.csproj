@@ -286,6 +286,8 @@
     <Content Include="Views\Home\MVR\_VerticalNav.cshtml" />
     <Content Include="Views\Home\MVR\BoikoRashkov.cshtml" />
     <Content Include="Views\Home\MVR\PoliticalCabinet.cshtml" />
+    <Content Include="Views\Home\MVR\International.cshtml" />
+    <Content Include="Views\Home\MVR\NormativeActs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
