@@ -1,0 +1,15 @@
+﻿.gallery .preview {
+    background-color: var(--grey);
+    padding: 100px 0;
+}
+
+.gallery .preview img {
+    margin: 0 auto;
+    display: block;
+}
+
+.gallery .thumbnails img {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}

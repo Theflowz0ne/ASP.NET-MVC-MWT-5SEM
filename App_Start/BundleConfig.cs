@@ -22,6 +22,9 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC
             bundles.Add(new Bundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
+            bundles.Add(new Bundle("~/bundles/mvr-bundle").Include(
+                "~/Scripts/MVR_Scripts/gallery.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/Styles/Bootstrap/bootstrap.css",
                       "~/Content/Styles/Yamm/yamm.css",
@@ -32,7 +35,8 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC
                       "~/Content/Styles/MVR_Styles/header.css",
                       "~/Content/Styles/MVR_Styles/footer.css",
                       "~/Content/Styles/MVR_Styles/mvr-card.css",
-                      "~/Content/Styles/MVR_Styles/vertical-nav.css"
+                      "~/Content/Styles/MVR_Styles/vertical-nav.css",
+                      "~/Content/Styles/MVR_Styles/gallery.css"
                       ));
         }
     }
