@@ -288,6 +288,8 @@
     <Content Include="Views\Home\MVR\PoliticalCabinet.cshtml" />
     <Content Include="Views\Home\MVR\International.cshtml" />
     <Content Include="Views\Home\MVR\NormativeActs.cshtml" />
+    <Content Include="Views\Home\MVR\CouncilsAndCommissions.cshtml" />
+    <Content Include="Views\Home\MVR\RegisterZPKONPI.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
