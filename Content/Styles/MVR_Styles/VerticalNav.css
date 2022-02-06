@@ -1,0 +1,14 @@
+﻿.accordion button {
+    padding: 0;
+    font-weight: 700;
+}
+
+/* hide arrow when the accordion is collapsed */
+.accordion button.accordion-button.collapsed::after {
+    display: none !important;
+}
+
+/* hide the arrow when the accordion is not collapsed */
+.accordion button.accordion-button::after {
+    display: none !important;
+}
