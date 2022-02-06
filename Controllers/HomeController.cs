@@ -36,7 +36,7 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC.Controllers
         {
             return View("MVR/BoikoRashkov");
         }
-        
+
         public ActionResult PoliticalCabinet()
         {
             return View("MVR/PoliticalCabinet");
@@ -48,6 +48,16 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC.Controllers
         public ActionResult NormativeActs()
         {
             return View("MVR/NormativeActs");
+        }
+
+        public ActionResult CouncilsAndCommissions()
+        {
+            return View("MVR/CouncilsAndCommissions");
+        }
+
+        public ActionResult RegisterZPKONPI()
+        {
+            return View("MVR/RegisterZPKONPI");
         }
     }
 }
