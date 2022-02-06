@@ -22,6 +22,19 @@ a {
     text-decoration: none;
 }
 
+/* Article */
+
+.article {
+    padding: 40px;
+    background-color: var(--white);
+}
+
+.article h3 {
+    margin: 0 0 15px;
+    font-size: 1.5em;
+    color: var(--aqua-blue);
+}
+
 /* colors */
 
 .color-yellow {

@@ -37,7 +37,7 @@
 }
 
 .navbar-dropdown-items a {
-    color: var(--white) !important;
+    color: var(--light-green) !important;
     font-size: 0.8em;
     display: block;
     line-height: 110%;
@@ -45,7 +45,7 @@
 }
 
 .navbar-dropdown-items a:hover {
-    color: var(--white) !important;
+    color: var(--light-green) !important;
     text-decoration: underline;
 }
 
