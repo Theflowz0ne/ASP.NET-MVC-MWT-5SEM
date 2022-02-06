@@ -41,5 +41,13 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC.Controllers
         {
             return View("MVR/PoliticalCabinet");
         }
+        public ActionResult International()
+        {
+            return View("MVR/International");
+        }
+        public ActionResult NormativeActs()
+        {
+            return View("MVR/NormativeActs");
+        }
     }
 }
