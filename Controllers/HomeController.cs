@@ -36,5 +36,10 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC.Controllers
         {
             return View("MVR/BoikoRashkov");
         }
+        
+        public ActionResult PoliticalCabinet()
+        {
+            return View("MVR/PoliticalCabinet");
+        }
     }
 }
