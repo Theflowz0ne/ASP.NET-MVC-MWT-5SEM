@@ -3,6 +3,25 @@
     font-weight: 700;
 }
 
+.accordion .accordion-item {
+    margin-bottom: 10px;
+    border: unset;
+}
+
+.accordion a {
+    color: var(--grey-blue);
+}
+
+.accordion a:hover {
+    color: var(--aqua-blue);
+}
+
+.accordion .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: var(--aqua-blue);
+    box-shadow: unset;
+}
+
 /* hide arrow when the accordion is collapsed */
 .accordion button.accordion-button.collapsed::after {
     display: none !important;

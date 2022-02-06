@@ -200,8 +200,9 @@
     <Content Include="Content\Styles\MVR_Styles\mvr-card.css" />
     <Content Include="Content\Styles\MVR_Styles\utils.css" />
     <Content Include="Content\Styles\MVR_Styles\most-top-bar.css" />
-    <Content Include="Content\Styles\MVR_Styles\VerticalNav.css" />
+    <Content Include="Content\Styles\MVR_Styles\vertical-nav.css" />
     <Content Include="Content\Styles\Yamm\yamm.css" />
+    <Content Include="Database.sql" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Models\UserDataModel.Context.tt">
