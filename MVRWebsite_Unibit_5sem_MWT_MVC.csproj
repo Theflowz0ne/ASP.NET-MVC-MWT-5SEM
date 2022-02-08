@@ -162,7 +162,18 @@
     <Content Include="Content\Images\googleplay.png" />
     <Content Include="Content\Images\kzld.png" />
     <Content Include="Content\Images\mehanizum-speshno-podpolagane.png" />
+    <Content Include="Content\Images\Museum.jpg" />
     <Content Include="Content\Images\mvr-map.png" />
+    <Content Include="Content\Images\MVRMinisters\1-тодор-брумов.jpg" />
+    <Content Include="Content\Images\MVRMinisters\10-антонюгов.jpg" />
+    <Content Include="Content\Images\MVRMinisters\2-драганцанков.jpg" />
+    <Content Include="Content\Images\MVRMinisters\3-петкоцлавейков.jpg" />
+    <Content Include="Content\Images\MVRMinisters\4-петкокаравелов.jpg" />
+    <Content Include="Content\Images\MVRMinisters\5-василрадославов.jpg" />
+    <Content Include="Content\Images\MVRMinisters\6-стефанстамболов.jpg" />
+    <Content Include="Content\Images\MVRMinisters\7-константинстоилов.jpg" />
+    <Content Include="Content\Images\MVRMinisters\8-андрейляпчев.jpg" />
+    <Content Include="Content\Images\MVRMinisters\9-александърстанишев.jpg" />
     <Content Include="Content\Images\ne-si-sam.png" />
     <Content Include="Content\Images\news-and-updates\bulgrski-dokumenti-za-samolichnost.jpg" />
     <Content Include="Content\Images\news-and-updates\izdirva.jpg" />
@@ -293,6 +304,11 @@
     <Content Include="Views\Home\MVR\CouncilsAndCommissions.cshtml" />
     <Content Include="Views\Home\MVR\RegisterZPKONPI.cshtml" />
     <Content Include="Views\Home\MVR\Uniforms.cshtml" />
+    <Content Include="Views\Home\MVR\History.cshtml" />
+    <Content Include="Views\Home\MVR\Museum.cshtml" />
+    <Content Include="Views\Home\MVR\UsefulForYou.cshtml" />
+    <Content Include="Views\Home\MVR\Contacts.cshtml" />
+    <Content Include="Views\Home\Administration\ReferenceId.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

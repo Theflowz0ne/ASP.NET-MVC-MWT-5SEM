@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "ReferenceId";
+}
+
+<div class="container article">
+    <div class="row">
+        <div class="col-2">
+          
+        </div>
+        <div class="col">
+            <h3 class="articleTitle">Справка за издадени и неполучени български лични документи след 29.03.2010 г.</h3>
+            <div class="row">
+                <div class="col-3 text-end">
+                    <h5><b>Тип Документ </b></h5>
+                </div>
+                <div class="col-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Лична карта</option>
+                        <option value="1">Свидетелство за управление на МПС</option>
+                        <option value="2">Паспорт</option>
+                        <option value="3">Моряшки паспорт за български граждани</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-3 text-end">
+                    <h5><b>ЕГН </b></h5>
+                </div>
+                <div class="col-3">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 text-end">
+                    <h5><b>Фамилия </b></h5>
+                </div>
+                <div class="col-3">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 text-end">
+
+                </div>
+                <div class="col-3">
+                    <div class="input-group mb-3">
+                        <button type="button" class="btn btn-outline-secondary">Търси</button>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="mt-4">Указания за ползване</h3>
+            1. Моля изберете вида на документа, за който сте подали заявление. <br />
+            2. В полето ЕГН посочете Вашия единен граждански номер. Натиснете бутона "Търси" <br />
+            3. Вследствие на търсенето ще получите информация дали имате издаден документ за самоличност от избрания вид. <br />
+            4. В случай, че заявеният от Вас документ е издаден, в зависимост от заплатената от Вас услуга, може да го получите, както следва: <br />
+            <ul class="decorator-arrow">
+                <li>
+                    <b> Експресна услуга </b> <br />
+                    - на същия ден, в който е издаден документът
+                </li>
+                <li>
+                    <b> Бърза услуга </b> <br />
+                    - на същия ден, ако заявлението е подадено в ОДМВР и само в случай, че е изминал срокът, регламентиран в Тарифа № 4, за издаване на документ със заплатена такса за експресна услуга
+                    <br />
+                    - след 14:00 ч. на следващия работен ден, ако заявлвнието е подадено в РУ на МВР.
+                </li>
+                <li>
+                    <b> Обикновена услуга </b> <br />
+                    - на датата, посочена в регистрационния талон, който Ви е предоставен при подаване на заявлението.
+                </li>
+            </ul>
+
+            <div class="YellowBox">
+                <b>Внимание</b> <br />
+
+                При търсене използвайте единствено цифри. Не са валидни *? и други символи. В рамките на 10 минути можете да изпълните максимум 11 заявки, след което достъпът Ви до системата ще бъде временно преустановен. След като изтекат 10 минути от последната Ви заявка отново ще получите достъп.
+            </div>
+
+        </div>
+    </div>
+</div>
+

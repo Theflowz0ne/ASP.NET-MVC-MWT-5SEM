@@ -21,6 +21,12 @@ body {
 a {
     text-decoration: none;
 }
+/* Yellow Box*/
+
+.YellowBox {
+    padding: 40px;
+    background-color: var(--yellow);
+}
 
 /* Article */
 

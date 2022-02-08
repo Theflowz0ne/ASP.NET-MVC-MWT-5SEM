@@ -64,5 +64,30 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC.Controllers
         {
             return View("MVR/Uniforms");
         }
+
+        public ActionResult History()
+        {
+            return View("MVR/History");
+        }
+
+        public ActionResult Museum()
+        {
+            return View("MVR/Museum");
+        }
+
+        public ActionResult UsefulForYou()
+        {
+            return View("MVR/UsefulForYou");
+        }
+
+        public ActionResult Contacts()
+        {
+            return View("MVR/Contacts");
+        }
+
+        public ActionResult ReferenceId()
+        {
+            return View("Administration/ReferenceId");
+        }
     }
 }
