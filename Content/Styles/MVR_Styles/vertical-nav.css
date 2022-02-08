@@ -10,6 +10,7 @@
 
 .accordion a {
     color: var(--grey-blue);
+    display: block;
 }
 
 .accordion a:hover {
