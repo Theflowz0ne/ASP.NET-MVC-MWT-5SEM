@@ -235,18 +235,18 @@
       <DependentUpon>UserDataModel.edmx</DependentUpon>
     </Content>
     <Content Include=".gitignore" />
-    <Content Include="Scripts\bootstrap.bundle.js" />
-    <Content Include="Scripts\bootstrap.bundle.min.js" />
-    <Content Include="Scripts\bootstrap.esm.js" />
-    <Content Include="Scripts\bootstrap.esm.min.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\bootstrap.min.js.map" />
-    <Content Include="Scripts\bootstrap.js.map" />
-    <Content Include="Scripts\bootstrap.esm.min.js.map" />
-    <Content Include="Scripts\bootstrap.esm.js.map" />
-    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
-    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Scripts\Bootstrap\bootstrap.bundle.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap.esm.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap.esm.min.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap.min.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap.min.js.map" />
+    <Content Include="Scripts\Bootstrap\bootstrap.js.map" />
+    <Content Include="Scripts\Bootstrap\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\Bootstrap\bootstrap.esm.js.map" />
+    <Content Include="Scripts\Bootstrap\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\Bootstrap\bootstrap.bundle.js.map" />
     <Content Include="Content\Styles\Bootstrap\bootstrap.rtl.min.css.map" />
     <Content Include="Content\Styles\Bootstrap\bootstrap.rtl.css.map" />
     <Content Include="Content\Styles\Bootstrap\bootstrap.min.css.map" />
