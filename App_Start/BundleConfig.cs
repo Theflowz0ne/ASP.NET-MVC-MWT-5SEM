@@ -9,10 +9,10 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                        "~/Scripts/jQuery/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.validate*"));
+                        "~/Scripts/jQuery/jquery.validate*"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
@@ -20,7 +20,7 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new Bundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+                      "~/Scripts/Bootstrap/bootstrap.js"));
 
             bundles.Add(new Bundle("~/bundles/mvr-bundle").Include(
                 "~/Scripts/MVR_Scripts/gallery.js"));
