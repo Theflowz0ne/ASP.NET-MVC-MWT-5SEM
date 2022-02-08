@@ -89,5 +89,11 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC.Controllers
         {
             return View("Administration/ReferenceId");
         }
+
+        public ActionResult ReferenceBgId()
+        {
+            return View("Administration/ReferenceBgId");
+        }
+
     }
 }

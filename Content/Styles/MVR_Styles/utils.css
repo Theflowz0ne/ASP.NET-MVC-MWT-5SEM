@@ -23,9 +23,9 @@ a {
 }
 /* Yellow Box*/
 
-.YellowBox {
-    padding: 40px;
-    background-color: var(--yellow);
+.yellow-box {
+    padding: 20px;
+    background-color: var(--warning-yellow);
 }
 
 /* Article */

@@ -309,6 +309,7 @@
     <Content Include="Views\Home\MVR\UsefulForYou.cshtml" />
     <Content Include="Views\Home\MVR\Contacts.cshtml" />
     <Content Include="Views\Home\Administration\ReferenceId.cshtml" />
+    <Content Include="Views\Home\Administration\ReferenceBgId.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
