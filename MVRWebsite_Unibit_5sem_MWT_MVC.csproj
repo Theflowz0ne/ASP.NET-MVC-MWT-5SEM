@@ -305,10 +305,11 @@
     <Content Include="Content\Styles\Bootstrap\bootstrap-grid.min.css.map" />
     <Content Include="Content\Styles\Bootstrap\bootstrap-grid.css.map" />
     <Content Include="Content\Fonts\RobotoCondensed.ttf" />
-    <Content Include="Scripts\jquery-ui-1.13.0.js" />
-    <Content Include="Scripts\jquery-ui-1.13.0.min.js" />
+    <Content Include="Scripts\jQueryUi\jquery-ui-1.13.0.js" />
+    <Content Include="Scripts\jQueryUi\jquery-ui-1.13.0.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\MVR_Scripts\gallery.js" />
+    <Content Include="Scripts\MVR_Scripts\utils.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

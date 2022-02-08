@@ -9,7 +9,8 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jQuery/jquery-{version}.js"));
+                        "~/Scripts/jQuery/jquery-{version}.js",
+                        "~/Scripts/jQueryUi/jquery-ui-1.13.0.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jQuery/jquery.validate*"));
@@ -23,10 +24,12 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC
                       "~/Scripts/Bootstrap/bootstrap.js"));
 
             bundles.Add(new Bundle("~/bundles/mvr-bundle").Include(
-                "~/Scripts/MVR_Scripts/gallery.js"));
+                "~/Scripts/MVR_Scripts/gallery.js",
+                "~/Scripts/MVR_Scripts/utils.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/Styles/Bootstrap/bootstrap.css",
+                      "~/Content/themes/base/all.css",
                       "~/Content/Styles/Yamm/yamm.css",
                       "~/Content/Styles/MVR_Styles/colors.css",
                       "~/Content/Styles/MVR_Styles/utils.css",

@@ -1,0 +1,1 @@
+﻿$("#birthDate").datepicker();
