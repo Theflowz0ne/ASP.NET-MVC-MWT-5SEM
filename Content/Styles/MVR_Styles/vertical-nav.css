@@ -1,34 +1,34 @@
-﻿.accordion button {
+﻿.vertical-nav.accordion button {
     padding: 0;
     font-weight: 700;
 }
 
-.accordion .accordion-item {
+.vertical-nav.accordion .accordion-item {
     margin-bottom: 10px;
     border: unset;
 }
 
-.accordion a {
+.vertical-nav.accordion a {
     color: var(--grey-blue);
     display: block;
 }
 
-.accordion a:hover {
+.vertical-nav.accordion a:hover {
     color: var(--aqua-blue);
 }
 
-.accordion .accordion-button:not(.collapsed) {
+.vertical-nav.accordion .accordion-button:not(.collapsed) {
     background-color: transparent;
     color: var(--aqua-blue);
     box-shadow: unset;
 }
 
 /* hide arrow when the accordion is collapsed */
-.accordion button.accordion-button.collapsed::after {
+.vertical-nav.accordion button.accordion-button.collapsed::after {
     display: none !important;
 }
 
 /* hide the arrow when the accordion is not collapsed */
-.accordion button.accordion-button::after {
+.vertical-nav.accordion button.accordion-button::after {
     display: none !important;
 }
