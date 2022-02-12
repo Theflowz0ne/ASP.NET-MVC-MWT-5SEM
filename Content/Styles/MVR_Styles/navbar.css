@@ -32,13 +32,13 @@
 .navbar-dropdown-titles {
     color: var(--yellow) !important;
     font-weight: bold;
-    font-size: 0.87em;
+    font-size: 0.87rem;
     margin-bottom: 20px;
 }
 
 .navbar-dropdown-items a {
     color: var(--light-green) !important;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     display: block;
     line-height: 110%;
     margin-bottom: 8px;
@@ -50,7 +50,7 @@
 }
 
 .search-button {
-    font-size: 0.75em;
+    font-size: 0.75rem;
     background-color: var(--purple-blue);
     width: 135px;
 }

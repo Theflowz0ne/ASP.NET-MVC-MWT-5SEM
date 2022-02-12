@@ -29,16 +29,16 @@
 }
 
 .mvr-card .title {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 .mvr-card .summary {
-    font-size: 0.87em;
+    font-size: 0.87rem;
     font-weight: 700;
 }
 
 .mvr-card .card-footer {
-    font-size: 0.65em;
+    font-size: 0.65rem;
     font-weight: 700;
     background-color: transparent;
     border: none;
@@ -47,19 +47,19 @@
 
 /* information cards */
 .mvr-card h2 {
-    font-size: 1em;
+    font-size: 1rem;
     color: var(--dark-blue);
     font-weight: 700;
 }
 
 .mvr-card h2 {
-    font-size: 1em;
+    font-size: 1rem;
     color: var(--dark-blue);
     font-weight: 700;
 }
 
 .mvr-card p {
-    font-size: 0.88em;
+    font-size: 0.88rem;
 }
 
 .mvr-card .section-information {
