@@ -175,10 +175,10 @@
     <Content Include="Content\Images\MVRMinisters\8-андрейляпчев.jpg" />
     <Content Include="Content\Images\MVRMinisters\9-александърстанишев.jpg" />
     <Content Include="Content\Images\ne-si-sam.png" />
-    <Content Include="Content\Images\news-and-updates\bulgrski-dokumenti-za-samolichnost.jpg" />
-    <Content Include="Content\Images\news-and-updates\izdirva.jpg" />
-    <Content Include="Content\Images\news-and-updates\specoperaciq.jpg" />
-    <Content Include="Content\Images\news-and-updates\stanete-partnior.jpg" />
+    <Content Include="Content\Images\NewsAndUpdates\bulgrski-dokumenti-za-samolichnost.jpg" />
+    <Content Include="Content\Images\NewsAndUpdates\izdirva.jpg" />
+    <Content Include="Content\Images\NewsAndUpdates\specoperaciq.jpg" />
+    <Content Include="Content\Images\NewsAndUpdates\stanete-partnior.jpg" />
     <Content Include="Content\Images\postupvane-na-rabota.png" />
     <Content Include="Content\Images\putna-policiq.png" />
     <Content Include="Content\Images\temelakiev.jpg" />
