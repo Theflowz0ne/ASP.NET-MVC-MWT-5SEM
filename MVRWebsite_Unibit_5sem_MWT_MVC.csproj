@@ -205,6 +205,7 @@
     <Content Include="Content\Images\logo-mvr1.png" />
     <Content Include="Content\Images\Logo2.png" />
     <Content Include="Content\Styles\MVR_Styles\colors.css" />
+    <Content Include="Content\Styles\MVR_Styles\e-uslugi-accordion.css" />
     <Content Include="Content\Styles\MVR_Styles\footer.css" />
     <Content Include="Content\Styles\MVR_Styles\gallery.css" />
     <Content Include="Content\Styles\MVR_Styles\header.css" />
