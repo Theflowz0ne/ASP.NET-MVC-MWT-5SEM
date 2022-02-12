@@ -95,5 +95,15 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC.Controllers
             return View("Administration/ReferenceBgId");
         }
 
+        public ActionResult Coruption()
+        {
+            return View("MVR/Coruption");
+        }
+
+        public ActionResult EUslugi()
+        {
+            return View("Administration/EUslugi");
+        }
+
     }
 }
