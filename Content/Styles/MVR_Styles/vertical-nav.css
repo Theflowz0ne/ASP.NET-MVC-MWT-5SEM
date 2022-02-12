@@ -11,6 +11,7 @@
 .vertical-nav.accordion a {
     color: var(--grey-blue);
     display: block;
+    margin-bottom: 5px;
 }
 
 .vertical-nav.accordion a:hover {
