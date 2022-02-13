@@ -1,0 +1,24 @@
+﻿.e-uslugi-accordion .accordion-button {
+    background-color: var(--light-blue);
+    color: var(--black);
+    font-size: 1.19rem;
+    font-weight: 700;
+}
+
+.e-uslugi-accordion .accordion-button img {
+    margin-right: 20px;
+}
+
+.e-uslugi-accordion a {
+    color: var(--aqua-blue);
+}
+
+.e-uslugi-accordion .accordion-body {
+    border: 5px solid var(--light-blue);
+    border-top: none;
+}
+
+.e-uslugi-accordion .accordion-item {
+    border-radius: 6px;
+    margin-bottom: 10px;
+}

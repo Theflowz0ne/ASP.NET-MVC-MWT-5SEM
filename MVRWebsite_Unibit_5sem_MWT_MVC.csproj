@@ -175,10 +175,10 @@
     <Content Include="Content\Images\MVRMinisters\8-андрейляпчев.jpg" />
     <Content Include="Content\Images\MVRMinisters\9-александърстанишев.jpg" />
     <Content Include="Content\Images\ne-si-sam.png" />
-    <Content Include="Content\Images\news-and-updates\bulgrski-dokumenti-za-samolichnost.jpg" />
-    <Content Include="Content\Images\news-and-updates\izdirva.jpg" />
-    <Content Include="Content\Images\news-and-updates\specoperaciq.jpg" />
-    <Content Include="Content\Images\news-and-updates\stanete-partnior.jpg" />
+    <Content Include="Content\Images\NewsAndUpdates\bulgrski-dokumenti-za-samolichnost.jpg" />
+    <Content Include="Content\Images\NewsAndUpdates\izdirva.jpg" />
+    <Content Include="Content\Images\NewsAndUpdates\specoperaciq.jpg" />
+    <Content Include="Content\Images\NewsAndUpdates\stanete-partnior.jpg" />
     <Content Include="Content\Images\postupvane-na-rabota.png" />
     <Content Include="Content\Images\putna-policiq.png" />
     <Content Include="Content\Images\temelakiev.jpg" />
@@ -205,6 +205,7 @@
     <Content Include="Content\Images\logo-mvr1.png" />
     <Content Include="Content\Images\Logo2.png" />
     <Content Include="Content\Styles\MVR_Styles\colors.css" />
+    <Content Include="Content\Styles\MVR_Styles\e-uslugi-accordion.css" />
     <Content Include="Content\Styles\MVR_Styles\footer.css" />
     <Content Include="Content\Styles\MVR_Styles\gallery.css" />
     <Content Include="Content\Styles\MVR_Styles\header.css" />
@@ -352,6 +353,7 @@
     <Content Include="Views\Home\MVR\Coruption.cshtml" />
     <Content Include="Views\Home\Administration\EUslugi.cshtml" />
     <Content Include="Views\Home\Brexit\Brexit.cshtml" />
+    <Content Include="Views\Home\Administration\_VerticalNav.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

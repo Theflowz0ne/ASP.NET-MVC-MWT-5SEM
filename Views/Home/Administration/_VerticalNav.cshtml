@@ -1,0 +1,52 @@
+﻿<div class="accordion accordion-flush vertical-nav">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                ЕЛЕКТРОННИ УСЛУГИ И СПРАВКИ
+            </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                @Html.ActionLink("Електронни административни услуги", "EUslugi", "Home")
+                @Html.ActionLink("Справки по електронни административни услуги", "EUslugi", "Home")
+                @Html.ActionLink("Справка за издадени и неполучени български лични документи", "ReferenceId", "Home")
+                @Html.ActionLink("Справка за валидност на български лични документи", "ReferenceBgId", "Home")
+                @Html.ActionLink("Издаване на лична карта, паспорт или свидетелство за управление на МПС за български граждани,живеещи извън пределите на Република България", "Index", "Home")
+                @Html.ActionLink("Портал за електронни административни услуги", "Index", "Home")
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                СПИСЪК С УСЛУГИ
+            </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                @Html.ActionLink("Направление на дейност \"Пътна полиция\"", "Index", "Home")
+                @Html.ActionLink("Направление на дейност \"Български документи за самоличност\"", "Index", "Home")
+                @Html.ActionLink("Направление на дейност \"Пожарна безопасност и защита на населението\"", "Index", "Home")
+                @Html.ActionLink("Направление на дейност \"Миграция\"", "Index", "Home")
+                @Html.ActionLink("Направление на дейност \"Частна охранителна дейност\"", "Index", "Home")
+                @Html.ActionLink("Направление на дейност \"Контрол на общоопасните средства\"", "Index", "Home")
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                ПОЛЕЗНО ЗА ВАС
+            </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                @Html.ActionLink("Годишен доклад за оценка на удовлетвореността на потребителите", "Index", "Home")
+                @Html.ActionLink("Документи", "Index", "Home")
+            </div>
+        </div>
+    </div>
+
+</div>

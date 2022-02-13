@@ -39,7 +39,8 @@ namespace MVRWebsite_Unibit_5sem_MWT_MVC
                       "~/Content/Styles/MVR_Styles/footer.css",
                       "~/Content/Styles/MVR_Styles/mvr-card.css",
                       "~/Content/Styles/MVR_Styles/vertical-nav.css",
-                      "~/Content/Styles/MVR_Styles/gallery.css"
+                      "~/Content/Styles/MVR_Styles/gallery.css",
+                      "~/Content/Styles/MVR_Styles/e-uslugi-accordion.css"
                       ));
         }
     }

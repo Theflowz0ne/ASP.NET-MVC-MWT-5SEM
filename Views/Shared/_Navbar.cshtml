@@ -295,11 +295,11 @@
                 </li>
                 @if (Session["username"] != null)
                 {
-                    <li class="nav-item">@Html.ActionLink("Logout", "Logout", "Users", null, new { @class = "nav-link" })</li>
+                    <li class="nav-item">@Html.ActionLink("LOGOUT", "Logout", "Users", null, new { @class = "nav-link" })</li>
                 }
                 else
                 {
-                    <li class="nav-item">@Html.ActionLink("Login", "Login", "Users", null, new { @class = "nav-link" })</li>
+                    <li class="nav-item">@Html.ActionLink("LOGIN", "Login", "Users", null, new { @class = "nav-link" })</li>
                 }
             </ul>
             <form class="d-flex">
