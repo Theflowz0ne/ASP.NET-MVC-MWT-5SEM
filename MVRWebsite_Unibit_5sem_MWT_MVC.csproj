@@ -351,6 +351,7 @@
     <None Include="packages.config" />
     <Content Include="Views\Home\MVR\Coruption.cshtml" />
     <Content Include="Views\Home\Administration\EUslugi.cshtml" />
+    <Content Include="Views\Home\Brexit\Brexit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
